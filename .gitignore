@@ -1,0 +1,15 @@
+# Git directory
+.git/
+
+# Snakemake directory
+.snakemake/
+
+# Temporary files
+.nfs*
+
+# Pipeline results
+data/
+results/
+auspice/
+benchmarks/
+logs/

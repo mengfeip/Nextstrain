@@ -1,0 +1,216 @@
+FV537349	#UNKNOWN_FV537349
+FV537350	#UNKNOWN_FV537350
+FV537351	#UNKNOWN_FV537351
+FV537352	#UNKNOWN_FV537352
+KC257459	#Sudan_2005_01
+EPI_ISL_13058459
+KJ642614	#UTC
+MG693725	#MPX_Nig_2017_298481
+EPI_ISL_13058464
+MN346693	#MPXV_TNP_2017_North_Ponan
+ON602722	# MPXV_FRA_2022_TLS67
+EPI_ISL_13052275
+ON622721	#MPXV_1_IT_Milan_2022
+EPI_ISL_13052286
+ON754989	#mpx_2022_Canada_AB2
+EPI_ISL_13269478
+OP012849	#MPXV/human/Taiwan/110-364682/2022
+EPI_ISL_13908328
+KJ642615	#Potential recombinant between clade IIa and IIb
+OP390207	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-004b/2022
+EPI_ISL_14887973
+OP390208	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-005b/2022
+EPI_ISL_14887974
+OP390209	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-010b/2022
+EPI_ISL_14887975
+OP390210	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-022b/2022
+EPI_ISL_14887976
+OP390211	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-023b/2022
+EPI_ISL_14887977
+OP390212	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-024b/2022
+EPI_ISL_14887978
+OP390213	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-026b/2022
+EPI_ISL_14887979
+OP390214	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-029b/2022
+EPI_ISL_14887980
+OP390215	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-031b/2022
+EPI_ISL_14887981
+OP390216	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-032b/2022
+EPI_ISL_14887982
+OP390217	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-033b/2022
+EPI_ISL_14887983
+OP390218	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-034b/2022
+EPI_ISL_14887984
+OP390219	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-036b/2022
+EPI_ISL_14887985
+OP390220	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-038b/2022
+EPI_ISL_14887986
+OP390221	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-040b/2022
+EPI_ISL_14887987
+OP390222	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-043b/2022
+EPI_ISL_14887988
+OP390223	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-046b/2022
+EPI_ISL_14887989
+OP390224	# Duplicate sequence, but with different ITR hMpxV/UK/LMO-047b/2022
+EPI_ISL_14887990
+MT903340	# Duplicate of Rivers ref seq NC_063383
+OP526860	# Does not align well, very divergent MPXV_USA_2022_RI0001
+EPI_ISL_15116305
+OP526858	# Does not align well, very divergent MPXV_USA_2022_MN0001
+EPI_ISL_15116303
+OP526856 	# Does not align well, very divergent MPXV_USA_2022_FL0065
+EPI_ISL_15116301
+OP526859	# Does not align well, very divergent MPXV_USA_2022_MD0005
+EPI_ISL_15116304
+OP526862	# Does not align well, very divergent MPXV_USA_2022_DC0013
+EPI_ISL_15116307
+OP470374	# Overdiverged and with rev to ref, MPXV_USA_2022_DC0013
+EPI_ISL_15076198
+HQ857562	# Duplicate of DQ011155
+EPI_ISL_13058456
+HQ857563	# D14L knockout
+AF380138	# Duplicate of RefSeq NC_003310
+OP605555	# Slovenia overdiverged
+EPI_ISL_15370030
+OP605556	# Slovenia overdiverged
+EPI_ISL_15370031
+OP605557	# Slovenia overdiverged
+EPI_ISL_15370032
+OP605577	# Slovenia overdiverged
+EPI_ISL_15370052
+OP605588	# Slovenia overdiverged
+EPI_ISL_15370063
+OP605579	# Slovenia overdiverged
+EPI_ISL_15370054
+OP642362	# India A.2 overdiverged MCL-22-H-MPxV-16-5316
+OP696838	# Overdiverged MPXV/Germany/2022/RKI335
+EPI_ISL_18812965
+OP642407	# Breaks up B.1.8 due to reversion to reference
+OQ249660	# Reverted French B.1s
+EPI_ISL_16645229
+EPI_ISL_16260351
+OQ249661	# Reverted French B.1s
+EPI_ISL_16260402
+OQ172216	# Overdiverged French B.1
+EPI_ISL_16505426
+OQ503825	# Overdiverged MPXV/Human/USA/CA-LACPHL-MA00402/2023
+EPI_ISL_16997458
+OQ621553	# Monkeypox virus isolate MPXV/Sudan/2022/RKI630, many insertions, clade I
+OQ581847	# Spain, B.1.10, overdiverged
+EPI_ISL_17201439
+OQ581850	# Spain, B.1.10, overdiverged
+EPI_ISL_17201442
+OR540671	# Slovenia, overdiverged
+EPI_ISL_18299476
+
+PP098612	# Italy/Campania overdiverged, version .1
+EPI_ISL_18846297
+PP098592	# Italy/Campania overdiverged, version .1
+EPI_ISL_18846306
+PP098584	# Italy/Campania overdiverged, version .1
+EPI_ISL_18846292
+PP098601	# Italy/Campania overdiverged, version .1
+EPI_ISL_18846298
+PP098604	# Italy/Campania overdiverged, version .1
+EPI_ISL_18846287
+PP098613	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846282
+PP098593	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846317
+PP098605	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846283
+PP098614	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846300
+PP098587	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846308
+PP098582	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846281
+PP098610	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846286
+PP098599	# Italy/Campania overdiverged, version .2
+EPI_ISL_18846320
+PP098595
+EPI_ISL_18846318
+PP098578
+EPI_ISL_18846309
+
+HM172544	# cidofovir-resistant lab strain that is derived from DQ011155 (h/t Andrew Rambaut)
+
+NC_003310	# Overdiverged RefSeq NC_003310
+
+OR540672    # Overdiverged Slovenia-MPXV-38-2022
+EPI_ISL_18299475
+
+PP853038    # A.3 Overdiverged (mutation cluster) TRM344
+EPI_ISL_19256243
+PP852985    # A.3 Overdiverged
+EPI_ISL_19256246
+PP853003    # A.3 Overdiverged
+EPI_ISL_19256295
+PP852993    # Clusters A.3
+EPI_ISL_19256245
+
+OP535317    # A, suspicious cluster of mutations
+EPI_ISL_16283055
+OP535319    # A, suspicious cluster of mutations
+EPI_ISL_16283057
+
+PP852982    # A.2.3 overdiverged
+EPI_ISL_19256289
+PP852999    # A.2.2, TRM302
+EPI_ISL_19256225
+PP853022    # A.2.2, TRM328
+EPI_ISL_19256210
+PP853043    # A.2, TRM351
+EPI_ISL_19256184
+
+PP853014    # Artifact cluster 8803-8878
+EPI_ISL_19256188
+PP853002
+EPI_ISL_19256291
+PP853045
+EPI_ISL_19256193
+PP853015
+EPI_ISL_19256195
+PP852998
+EPI_ISL_19256264
+PP853017
+EPI_ISL_19256197
+PP853006
+EPI_ISL_19256234
+PP853032
+EPI_ISL_19256213
+PP853028
+EPI_ISL_19256219
+PP853004
+EPI_ISL_19256196
+PP853020
+EPI_ISL_19256185
+PP852994
+EPI_ISL_19256240
+PP853050
+EPI_ISL_19256273
+PP853007
+EPI_ISL_19256226
+PP853011
+EPI_ISL_19256229
+PP853010
+EPI_ISL_19256259
+PP853000
+EPI_ISL_19256224
+
+PP852945    # Overdiverged A.2.3
+EPI_ISL_19256209
+PP852973    # Overdiverged A.2.3
+EPI_ISL_19256192
+PP852943    # Overdiverged A.2.3
+EPI_ISL_19256202
+PP853052    # Suspicious clusters
+EPI_ISL_19256186
+PP853012    # Suspicious clusters
+EPI_ISL_19256205
+PP852987    # Suspicious clusters
+EPI_ISL_19256215
+
+MG693723    # Spotty/gappy/clusters
+EPI_ISL_13058462
