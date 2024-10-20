@@ -22,7 +22,7 @@ rule tree:
     threads: workflow.cores
     shell:
         """
-        export AUGUR_RECURSION_LIMIT=100000000
+        export AUGUR_RECURSION_LIMIT=2147483647
         augur tree \
             --alignment {input.alignment} \
             --exclude-sites {params.tree_mask} \
