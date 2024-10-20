@@ -1,0 +1,118 @@
+{
+  "title": "Genomic Epidemiology of Mpox Lineage-B.1 Viruses",
+  "maintainers": [
+    {"name": "Mengfei (Murphy)", "url": "https://intranet.cdc.gov/ncezid-dsr/bcfb/contacts.html"}
+  ],
+  "data_provenance": [
+    {
+      "name": "GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+    },
+    {
+      "name": "GISAID",
+      "url": "https://gisaid.org/"
+    }
+  ],
+  "colorings": [
+    {
+      "key": "database",
+      "title": "Database",
+      "type": "categorical"
+    },
+    {
+      "key": "update",
+      "title": "Submission recency",
+      "type": "categorical"
+    },
+    {
+      "key": "date_year",
+      "title": "Collection year",
+      "type": "categorical"
+    },
+    {
+      "title": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    {
+      "key": "clade_membership",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "lineage",
+      "title": "Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "outbreak",
+      "title": "Outbreak",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+      "key": "institution",
+      "title": "Institution",
+      "type": "categorical"
+    },
+    {
+      "key": "GA_CT_fraction",
+      "title": "G→A/C→T fraction",
+      "type": "continuous"
+    },
+    {
+      "key": "dinuc_context_fraction",
+      "title": "NGA/TCN context of G→A/C→T mutations",
+      "type": "continuous"
+    }
+  ],
+  "geo_resolutions": [
+    "region",
+    "country",
+    "division"
+  ],
+  "display_defaults": {
+    "color_by": "lineage",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "distance_measure": "num_date",
+    "transmission_lines": true
+  },
+  "filters": [
+    "database",
+    "date_year",
+    "update",
+    "region",
+    "country",
+    "division",
+    "clade_membership",
+    "lineage",
+    "host",
+    "institution"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}
