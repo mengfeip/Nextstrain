@@ -2,7 +2,7 @@ database: "GISAID"
 reference: "config/reference.fasta"
 genome_annotation: "config/genome_annotation.gff3"
 genbank_reference: "config/reference.gb"
-include: "config/Lineage-B/include.txt"
+include: "config/Lineage-B/include_GISAID.txt"
 exclude: "config/exclude_accessions.txt"
 clades: "config/clades.tsv"
 lat_longs: "config/lat_longs.tsv"
@@ -26,11 +26,12 @@ filter:
   exclude_where: "database!=GISAID"
 
 subsample:
-  B1:
+  Lineage_B:
     group_by: ""
     sequences_per_group: ""
     other_filters: "clade!=IIb"
     exclude_lineages:
+      - B.1
       - A
       - A.1
       - A.1.1
@@ -39,6 +40,14 @@ subsample:
       - A.2.2
       - A.2.3
       - A.3
+  B1_in_2022:
+    group_by: "--group-by month country"
+    sequences_per_group: "--subsample-max-sequences 1000"
+    other_filters: "--exclude-where lineage!=B.1 date_year=2022"
+  B1_after_2022:
+    group_by: ""
+    sequences_per_group: ""
+    other_filters: "--exclude-where lineage!=B.1 date_year!=2022"
 
 ## align
 max_indel: 10000
