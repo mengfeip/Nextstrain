@@ -26,12 +26,11 @@ filter:
   exclude_where: "database!=GenBank"
 
 subsample:
-  Lineage_B:
-    group_by: ""
-    sequences_per_group: ""
-    other_filters: "clade!=IIb"
+  B1_in_2022:
+    group_by: "--group-by month lineage"
+    sequences_per_group: "--sequences-per-group 20"
+    other_filters: "clade!=IIb date_year!=2022"
     exclude_lineages:
-      - B.1
       - A
       - A.1
       - A.1.1
@@ -40,14 +39,45 @@ subsample:
       - A.2.2
       - A.2.3
       - A.3
-  B1_in_2022:
-    group_by: "--group-by month country"
-    sequences_per_group: "--subsample-max-sequences 1000"
-    other_filters: "--exclude-where lineage!=B.1 date_year=2022"
   B1_after_2022:
     group_by: ""
     sequences_per_group: ""
-    other_filters: "--exclude-where lineage!=B.1 date_year!=2022"
+    other_filters: "clade!=IIb date_year=2022"
+    exclude_lineages:
+      - A
+      - A.1
+      - A.1.1
+      - A.2
+      - A.2.1
+      - A.2.2
+      - A.2.3
+      - A.3
+  Recent2weeks:
+    group_by: ""
+    sequences_per_group: ""
+    other_filters: "clade!=IIb update!='1-2 weeks ago'"
+    exclude_lineages:
+      - A
+      - A.1
+      - A.1.1
+      - A.2
+      - A.2.1
+      - A.2.2
+      - A.2.3
+      - A.3
+  Recent1week:
+    group_by: ""
+    sequences_per_group: ""
+    other_filters: "clade!=IIb update!='< 1 week'"
+    exclude_lineages:
+      - A
+      - A.1
+      - A.1.1
+      - A.2
+      - A.2.1
+      - A.2.2
+      - A.2.3
+      - A.3
 
 ## align
 max_indel: 10000
