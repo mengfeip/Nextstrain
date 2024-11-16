@@ -26,10 +26,14 @@ filter:
   exclude_where: "database!=GISAID"
 
 subsample:
-  IIb:
+  IIb_in_2022:
+    group_by: "--group-by month lineage"
+    sequences_per_group: "--sequences-per-group 20"
+    other_filters: "--exclude-where clade!=IIb date_year!=2022"
+  IIb_Others:
     group_by: ""
     sequences_per_group: ""
-    other_filters: "--exclude-where clade!=IIb"
+    other_filters: "--exclude-where clade!=IIb date_year=2022"
 
 ## align
 max_indel: 10000
