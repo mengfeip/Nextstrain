@@ -63,4 +63,4 @@ mask:
   maskfile: "config/mask.bed"
 
 frequency:
-  min_date: "2017-01-01"
+  min_date: "2023-01-01"
