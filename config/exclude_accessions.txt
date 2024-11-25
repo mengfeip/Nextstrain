@@ -136,6 +136,9 @@ EPI_ISL_18846309
 
 HM172544	# cidofovir-resistant lab strain that is derived from DQ011155 (h/t Andrew Rambaut)
 
+PP852989    # Nigerian overdiverged B.1
+OP605587    # Slovenia overdiverged B.1
+
 NC_003310	# Overdiverged RefSeq NC_003310
 
 OR540672    # Overdiverged Slovenia-MPXV-38-2022
@@ -215,9 +218,7 @@ EPI_ISL_19256215
 MG693723    # Spotty/gappy/clusters
 EPI_ISL_13058462
 
-OP605587
 PQ271634
-PP852989
 PP852957
 PP860033
 PP852990
