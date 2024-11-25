@@ -55,7 +55,7 @@ subsample:
   Recent2weeks:
     group_by: ""
     sequences_per_group: ""
-    other_filters: "clade!=IIb update!='1-2 weeks ago'"
+    other_filters: "clade!=IIb"
     exclude_lineages:
       - A
       - A.1
@@ -65,19 +65,7 @@ subsample:
       - A.2.2
       - A.2.3
       - A.3
-  Recent1week:
-    group_by: ""
-    sequences_per_group: ""
-    other_filters: "clade!=IIb update!='< 1 week'"
-    exclude_lineages:
-      - A
-      - A.1
-      - A.1.1
-      - A.2
-      - A.2.1
-      - A.2.2
-      - A.2.3
-      - A.3
+    query: "'update in [\"1-2 weeks ago\", \"< 1 week\"]'"
 
 ## align
 max_indel: 10000

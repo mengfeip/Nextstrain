@@ -34,14 +34,11 @@ subsample:
     group_by: ""
     sequences_per_group: ""
     other_filters: "--exclude-where clade!=IIb date_year=2022"
-  Recent2weeks:
+  Recent_Submission:
     group_by: ""
     sequences_per_group: ""
-    other_filters: "--exclude-where clade!=IIb update!='1-2 weeks ago'"
-  Recent1week:
-    group_by: ""
-    sequences_per_group: ""
-    other_filters: "--exclude-where clade!=IIb update!='< 1 week'"
+    other_filters: "--exclude-where clade!=IIb"
+    query: "'update in [\"1-2 weeks ago\", \"< 1 week\"]'"
 
 ## align
 max_indel: 10000
